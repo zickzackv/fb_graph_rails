@@ -66,8 +66,8 @@ Copyright
 
 This project rocks and uses MIT-LICENSE.
 
-[Paul Spieker][p] <paul.spieker@familienservice.de>
-[Fabian Otto][f] <fabian.otto@familienservice.de>
+* [Paul Spieker][p] <paul.spieker@familienservice.de>
+* [Fabian Otto][f] <fabian.otto@familienservice.de>
 
 [1]:https://github.com/nov/fb_graph 
 [p]:https://github.com/spieker
