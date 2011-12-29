@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.summary     = "A (really) simple gem around fb_graph for canvas authentication in Facebook"
   s.description = ""
 
-  s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.1.3"
+  s.add_dependency "rails", ">= 3.0.0"
   s.add_dependency "fb_graph", "~> 2.2.4"
 end
