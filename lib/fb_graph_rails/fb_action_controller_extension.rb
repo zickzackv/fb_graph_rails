@@ -11,7 +11,6 @@ module FbGraphRails::FbActionControllerExtension
   module InstanceMethods
 
     def fb_auth_required
-      p self.authenticated?
       unless self.authenticated?
         auth = self.class.fb_auth
         auth.from_signed_request(params[:signed_request]) unless params[:signed_request].blank?
