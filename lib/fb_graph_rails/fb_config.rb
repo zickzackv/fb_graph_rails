@@ -25,6 +25,10 @@ module FbGraphRails
       def fb_canvas_url
         @_canvas_url ||= fb_config[:canvas_url]
       end
+
+      def fb_auth_scope
+         @_auth_scope ||= fb_config[:scope]
+      end
     end # module
 
 

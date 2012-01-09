@@ -18,7 +18,7 @@ module FbGraphRails::FbActionControllerExtension
           authenticate self.class.fb_model.identify(auth.user)
           return true
         else
-          url = auth.authorize_uri(self.class.fb_canvas_url).html_safe
+          url = auth.authorize_uri(self.class.fb_canvas_url, :scope => self.class.fb_auth_scope).html_safe
           return render :inline => "<script>top.location.href = '#{url}';</script>"
 
         end
